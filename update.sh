@@ -17,7 +17,7 @@ git push origin hexo
 
 # 倉庫內master的更新 (展示給外界)
 npm=0
-if [ $npm=1 ];
+if [ $npm -eq 1 ];
 then
     echo "Value of npm is $npm"
     echo "Update the master!!"
