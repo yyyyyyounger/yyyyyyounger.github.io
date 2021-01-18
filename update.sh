@@ -16,13 +16,14 @@ git push origin hexo
 
 
 # 倉庫內master的更新 (展示給外界)
-npm = true
-if [ $npm ]
+npm = false
+if [ $npm = true ]
 then
     echo "Update the master!!"
     hexo clean
     hexo g
     hexo d
 else
+    echo "   "
     echo "Do not update the master branch."
 fi
