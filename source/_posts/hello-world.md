@@ -1,8 +1,9 @@
 ---
-title: Hello World !
+title: Hello World ! 我的第一篇Blog！
+tags: hexo
 ---
-我的第一條Blog！在2021.01.17的晚上面世啦！
-下面是老規矩—— HELLO WORLD (記錄下hexo常用功能)
+這是第一條Blog！在2021.01.17的晚上面世啦！
+老規矩—— HELLO WORLD ✿✿ヽ(°▽°)ノ✿ (記錄下hexo指令功能)
 
 ## Quick Start
 
