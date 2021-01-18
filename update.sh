@@ -1,4 +1,4 @@
-#!/bin/bash  #為了聲明是腳本
+
 # 如果没有消息后缀，默认提交信息为 `:pencil: update content`
 info="update" #default為$1  更改""裡面即可更改更新說明
 if ["$info" = ""];
