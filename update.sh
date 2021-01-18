@@ -16,8 +16,8 @@ git push origin hexo
 
 
 # 倉庫內master的更新 (展示給外界)
-npm="false"
-if [ $npm="true" ];
+npm=0
+if [ $npm ];
 then
     echo "Update the master!!"
     echo "Clean up!!"
