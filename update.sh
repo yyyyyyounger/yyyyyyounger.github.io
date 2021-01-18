@@ -15,11 +15,10 @@ git push origin hexo
 # 第一次提交，你可能需设置一下默认提交分支 # git push --set-upstream origin hexo
 
 
-# 倉庫內master的更新 (展示給外界)
+# 倉庫內master的更新 (展示給外界)   npm為0則不更新master，為1時更新master
 npm=1
 if [ $npm -eq 1 ];
 then
-    echo "Value of npm is $npm"
     echo "Update the master!!"
     echo "Clean up!!"
     hexo clean
