@@ -16,12 +16,15 @@ git push origin hexo
 
 
 # 倉庫內master的更新 (展示給外界)
-npm="true"
+npm="false"
 if [ $npm="true" ];
 then
     echo "Update the master!!"
+    echo "Clean up!!"
     hexo clean
+    echo "Generate the file!!"
     hexo g
+    echo "Deploying..."
     hexo d
 else
     echo "   "
