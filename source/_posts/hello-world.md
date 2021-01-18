@@ -48,3 +48,5 @@ hexo g
 hexo d
 ```
 Notice: Windows環境下的CMD是沒有bash命令的，bash其實是Linux上的命令。（應該是這麼理解沒錯吧
+
+後面試試整合hexo和master分支一起更新hhh
