@@ -38,6 +38,7 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 
 
 
+
 ## Lazy Method
 
 超級感謝能看到 [云游君: 教你如何从零开始搭建一个属于自己的网站](https://cloud.tencent.com/developer/article/1609701) 的blog，仿照大神結尾處寫的腳本辦法，我也寫以下這個腳本用於部署到github上~
@@ -47,6 +48,32 @@ hexo clean
 hexo g
 hexo d
 ```
-Notice: Windows環境下的CMD是沒有bash命令的，bash其實是Linux上的命令。（應該是這麼理解沒錯吧
 
-後面試試整合hexo和master分支一起更新hhh
+### Bash Command
+``` bash
+npm=1
+if [ $npm -eq 1 ];
+then
+    echo "Update the master!!"
+    echo "Clean up!!"
+    hexo clean
+    echo "Generate the file!!"
+    hexo g
+    echo "Deploying..."
+    hexo d
+else
+    echo "   "
+    echo "Do not update the master branch."
+fi
+```
+上述代碼同樣存入 xxx.sh 腳本文件內，就可以用npm控制是否更新hexo分支時順便更新master(即顯示頁面的分支)！
+
+
+## 腳本的運行
+沒錯，我一開始看大神用 sh update.sh 命令看傻了，CMD用不了這條命令，後來才知道sh命令是Linux的，Windows要想運行可以用Git Bash的命令行再使用bash命令。
+但其實還有更方便的就是直接雙擊 xxx.sh 的圖標...
+
+若是在VSCode內的Terminal操作，可以嘗試一下在目錄下直接輸入 xxx.sh 並Enter來運行。如果報錯不運行執行，可以在前面加上 .\ 強制運行？
+
+細緻的原理沒有深究，晚些時候再研究吧~
+

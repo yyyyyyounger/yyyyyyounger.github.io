@@ -1,3 +1,5 @@
+# yun主題的幫助文檔：https://yun.yunyoujun.cn/guide/
+language: en
 # UI
 banner:
   title: Y哥の小站
@@ -11,12 +13,8 @@ banner:
     icon: icon-arrow-down-s-line
 
 
-
-language: en
-
-
-
-reward:   # 獎賞頁，最下面
+# 獎賞頁，最下面
+reward:   
   enable: false
   
 
@@ -33,15 +31,11 @@ footer:
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
 
-# Post meta display settings
-post_meta:
-  item_text: false
-  created_at: true
-  updated_at: true
-  categories: true
-  tags: true
 
-# notice pin board
-notice:
-  enable: false
-  content: Thanks for watching my blog.
+#字數統計
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+
