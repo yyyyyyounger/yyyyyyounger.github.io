@@ -19,7 +19,7 @@ bg_image: #背景
   url: https://i.pximg.net/img-original/img/2021/01/18/12/31/46/87134976_p0.jpg
   #https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark: https://i.pximg.net/img-original/img/2020/12/21/20/49/10/86440998_p0.jpg
-  blur: 3px # 设置背景模糊程度
+  #blur: 3px # 设置背景模糊程度
   opacity: 0.8
 
 
