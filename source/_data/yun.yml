@@ -39,3 +39,45 @@ wordcount:
   time: true
 
 
+#數據統計
+busuanzi:
+  enable: true
+  site_uv: true
+  site_uv_icon: icon-user-line
+  site_pv: true
+  site_pv_icon: icon-eye-line
+  page_pv: true
+  page_pv_icon: icon-eye-line
+
+  
+#光標
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+
+#左側欄的社交圖標
+# name: 链接名称
+# link: 链接
+# icon: 图标 Class
+# color: 图标颜色（前提是您引入的图标支持 SVG 自定义颜色）当前默认色彩采用官方图标的品牌主色。
+social:
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: 
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/yyyyyyounger/yyyyyyounger.github.io
+    icon: icon-github-line
+    color: "#F8F8FF"
+  - name: E-Mail
+    link: 1049825685@qq.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/32574634
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
