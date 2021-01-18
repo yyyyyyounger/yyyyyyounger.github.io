@@ -19,6 +19,7 @@ git push origin hexo
 npm=0
 if [ $npm ];
 then
+    echo "Value of npm is $npm"
     echo "Update the master!!"
     echo "Clean up!!"
     hexo clean
