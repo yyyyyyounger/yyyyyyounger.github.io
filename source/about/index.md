@@ -1,5 +1,5 @@
 ---
-title: About me
+title: 關於我
 date: 2021-01-18 15:19:42
 ---
 
@@ -11,4 +11,3 @@ Bachelor's degree of
 Electrical and Computer Engineering
 
 
-QQ: 1049825685  (不常在線)
