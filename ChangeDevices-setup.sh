@@ -14,3 +14,7 @@ git add -A
 git commit -m "Change Device"
 git push --set-upstream origin hexo
 # 接着会跳转git的登录界面
+
+
+#搜索引擎
+npm install hexo-generator-search

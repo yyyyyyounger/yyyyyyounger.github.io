@@ -11,6 +11,8 @@ banner:
   go_down:
     enable: true
     icon: icon-arrow-down-s-line
+#網站圖標
+favicon: #/favicon.ico
 
 
 # 獎賞頁，最下面
@@ -81,3 +83,53 @@ social:
     link: https://space.bilibili.com/32574634
     icon: icon-bilibili-line
     color: "#FF8EB3"
+
+
+#比社交圖標更大的圖錶鏈接https://yun.yunyoujun.cn/guide/config.html#%E9%A1%B5%E9%9D%A2%E9%93%BE%E6%8E%A5
+pages:
+
+
+#彩色詞雲
+wordcloud:
+  enable: true
+
+
+#搜索引擎
+# https://github.com/wzpan/hexo-generator-search
+local_search:
+  enable: true
+  src: /js/search/local-search.js
+
+
+#煙花特效
+fireworks:
+  enable: true
+  colors:
+    - "102, 167, 221"
+    - "62, 131, 225"
+    - "33, 78, 194"
+
+
+#側邊欄
+#側邊欄背景
+sidebar:
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_position: bottom 3rem center
+  # bottom 3rem center 代表居中并且距离底部 3rem。
+  tagcloud:
+    enable: false
+    amount: 20
+  # tagcloud: 在侧边栏显示 Hexo 原生标签页
+  #   amount: 显示的标签数量
+
+#頭像
+avatar:
+  enable: true
+  url: https://i.loli.net/2021/01/18/2akFVDomwes9c4Z.jpg #/images/pig.jpg
+  rounded: true #是否圓形
+  opacity: 1    #透明度
+  mickey_mouse: false #米奇老鼠式頭像上移
+  status:
+    enable: true  #是否顯示emoji
+    emoji: 😥
+    message: 又要早八了

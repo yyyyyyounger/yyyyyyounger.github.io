@@ -1,6 +1,6 @@
 ---
 title: Hello World ! 我的第一篇Blog！
-tags: hexo
+tags: Hexo
 ---
 這是第一條Blog！在2021.01.17的晚上面世啦！
 老規矩—— HELLO WORLD ✿✿ヽ(°▽°)ノ✿ (記錄下hexo指令功能)
@@ -68,6 +68,7 @@ else
 fi
 ```
 上述代碼同樣存入 xxx.sh 腳本文件內，就可以用npm控制是否更新hexo分支時順便更新master(即顯示頁面的分支)！
+其他詳情可以看看這個項目的 [GitHub頁](https://github.com/yyyyyyounger/yyyyyyounger.github.io/tree/hexo) 的/hexo/update.sh
 
 
 ## 腳本的運行
@@ -77,4 +78,3 @@ fi
 若是在VSCode內的Terminal操作，可以嘗試一下在目錄下直接輸入 xxx.sh 並Enter來運行。如果報錯不執行，可以在前面加上 .\ 強制運行？(或者說設為可信)
 
 細緻的原理沒有深究，晚些時候再研究吧~
-
