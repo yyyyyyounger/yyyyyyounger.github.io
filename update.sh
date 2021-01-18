@@ -16,7 +16,7 @@ git push origin hexo
 
 
 # 倉庫內master的更新 (展示給外界)
-npm = false
+npm = true
 if [ $npm = true ]
 then
     echo "Update the master!!"
