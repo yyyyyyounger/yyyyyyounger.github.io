@@ -10,4 +10,38 @@ banner:
     enable: true
     icon: icon-arrow-down-s-line
 
-language: zh-TW
+
+
+language: en
+
+
+
+reward:   # 獎賞頁，最下面
+  enable: false
+  
+
+#頁腳設置
+footer:
+  since: 2021
+
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌噠運行了 
+    suffix:  (●'◡'●)
+    start_time: "2021-01-17T23:45:00"
+
+  # Any custom text can be defined here.
+  # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
+
+# Post meta display settings
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+# notice pin board
+notice:
+  enable: false
+  content: Thanks for watching my blog.
