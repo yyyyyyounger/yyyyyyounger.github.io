@@ -6,7 +6,9 @@ npm install hexo-deployer-git
 
 # 主题安装
 # themes/yun表示克隆到网站目录的themes文件夹下
-git clone https://github.com/YunYouJun/hexo-theme-yun themes/yun
+# git clone https://github.com/YunYouJun/hexo-theme-yun themes/yun
+git clone -b dev https://github.com/YunYouJun/hexo-theme-yun.git themes/yun
+
 
 
 # 更换设备后需要运行此脚本
