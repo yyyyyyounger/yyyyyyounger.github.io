@@ -16,8 +16,8 @@ favicon: #/favicon.ico
 #網站圖片背景
 bg_image: #背景
   enable: true
-  url: https://i.loli.net/2021/01/19/eCU6WMNcBSdHYyX.jpg
-  #https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
+  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
+      #https://i.loli.net/2021/01/19/eCU6WMNcBSdHYyX.jpg
   dark: https://i.loli.net/2021/01/19/bk4xlPoY9ChmKfX.jpg
   #blur: 3px # 设置背景模糊程度
   opacity: 0.8
@@ -121,12 +121,12 @@ fireworks:
 #側邊欄
 #側邊欄背景
 sidebar:
-  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_image: #https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
   bg_position: bottom 3rem center
   # bottom 3rem center 代表居中并且距离底部 3rem。
   tagcloud:
     enable: false
-    amount: 20
+    amount: 10
   # tagcloud: 在侧边栏显示 Hexo 原生标签页
   #   amount: 显示的标签数量
 

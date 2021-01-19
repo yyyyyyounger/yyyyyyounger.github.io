@@ -5,10 +5,10 @@ icon: icon-men-line
 ---
 
 在讀工科dog
-
+&nbsp;
 Year 1, 
 University of Macau, 
-Bachelor's degree of 
+Bachelor\'s degree of 
 Electrical and Computer Engineering
 
 
