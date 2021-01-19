@@ -23,9 +23,8 @@ then
     echo "Clean up!!"
     hexo clean
     echo "Generate the file!!"
-    hexo g
-    echo "Deploying..."
-    hexo d
+    echo "And Deploying..."
+    hexo g -d
 else
     echo "   "
     echo "Do not update the master branch."
