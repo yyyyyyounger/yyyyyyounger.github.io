@@ -130,6 +130,7 @@ sidebar:
   # tagcloud: 在侧边栏显示 Hexo 原生标签页
   #   amount: 显示的标签数量
 
+
 #頭像&emoji表情
 avatar:
   enable: true
@@ -146,7 +147,6 @@ avatar:
 #archive存檔/歸檔
 archive:
   last_word: 沒有更多黑歷史了_(:з」∠)_😏
-
 
 
 #評論功能
@@ -169,8 +169,7 @@ comment:
     - 若沒有本文 Issue，您可以使用 Comment 模板新建。
 
 
-
-#CDN Content Delivery Network   jsDelivr:https://www.jsdelivr.com/
+#CDN Content Delivery Network cdn加速   jsDelivr:https://www.jsdelivr.com/
 cdn:
   pre: ""
   css:

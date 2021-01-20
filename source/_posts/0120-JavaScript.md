@@ -4,10 +4,10 @@ date: 2021-01-20 22:58:44
 tags: JavaScript
 categories: 筆記
 ---
-學習JavaScript的歷程及想要記下的重點
+學習JavaScript的歷程及我覺得的重點
 ***
 <!-- more -->
-### 初探JavaScript
+# 初探JavaScript
 
 * 2021-1-20，吃晚飯的時候測試剛搭好不久的Blog，但想到很多自定義的東西又要放入 `head` 啊，寫script又要在什麼什麼結構上寫啊，各種很朦朧的概念東西，就渾身不舒服。很想自己用上自己寫的功能，於是開啟了學習JavaScript之路~ 😁
 這個時候我看的是 [廖雪峰的JavaScript教程](https://www.liaoxuefeng.com/wiki/1022910821149312) ，一開始是邊吃飯邊隨便看看的，但發現寫的很容易理解，而且廖大神這個網站做得簡直逆天啊直接run調試窗口，第一次見到的我也是目瞪口呆，果斷收藏。👍
