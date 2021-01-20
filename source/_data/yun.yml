@@ -1,5 +1,5 @@
 # yun主題的幫助文檔：https://yun.yunyoujun.cn/guide/
-language: en
+# language: en
 # UI
 banner:
   title: Y哥の小站
@@ -60,7 +60,7 @@ busuanzi:
   page_pv_icon: icon-eye-line
 
   
-#光標
+#光標/鼠標圖標
 cursor:
   enable: true
   default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
@@ -97,9 +97,9 @@ social:
 pages:
 
 
-#彩色詞雲
-wordcloud:
-  enable: true
+#po文變化
+post_meta:
+  item_text: true
 
 
 #搜索引擎
@@ -143,6 +143,12 @@ avatar:
     message: 又要早八了
 
 
+#archive存檔/歸檔
+archive:
+  last_word: 沒有更多黑歷史了_(:з」∠)_😏
+
+
+
 #評論功能
 github_issues:
   enable: true
@@ -154,6 +160,14 @@ github_discussions:
   enable: true
   username: yyyyyyounger
   repository: yyyyyyounger.github.io
+# Comments
+comment:
+  enable: true
+  icon: icon-chat-3-line
+  tips:
+    - 點擊按鈕跳轉 GitHub Issues 評論。
+    - 若沒有本文 Issue，您可以使用 Comment 模板新建。
+
 
 
 #CDN Content Delivery Network   jsDelivr:https://www.jsdelivr.com/
@@ -166,3 +180,5 @@ cdn:
       # 默认引入的图标资源，使用 iconfont
       iconfont: //at.alicdn.com/t/font_1140697_stqaphw3j4.js
     defer:
+
+
