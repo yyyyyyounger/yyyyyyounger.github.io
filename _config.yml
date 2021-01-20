@@ -53,7 +53,7 @@ skip_render:
 # 高亮：代码块高亮设置，需要都修改成 true
 new_post_name: :title.md 
 default_layout: post
-titlecase: false 
+titlecase: false
 external_link:
   enable: true # 是否在新窗口打开内部链接：默认是true
   field: site # Apply to the whole site
@@ -64,16 +64,16 @@ post_asset_folder: false  # post_asset_folder：是否允许 Asset 文件夹，�
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false #true
   line_number: true
   auto_detect: true #false
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true #false
 prismjs:
   enable: true #false
   preprocess: true
-  line_number: true
+  line_number: false
   tab_replace: ''
 
 # Home page setting <!--主页设置，路径、每页展示文章数量、文章排序-->  

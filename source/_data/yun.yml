@@ -181,3 +181,11 @@ cdn:
     defer:
 
 
+#代碼高亮功能highlight
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
+
+
