@@ -4,7 +4,7 @@ date: 2021-01-18 15:25:10
 ---
 ### 歷史版本
 
-本站基於[Hexo](https://hexo.io/zh-tw/)，於`2021年1月17號`用 [GitHub Pages](https://pages.github.com/) 發佈，希望用來記錄自己的歷程，與各位分享！
+本站基於[Hexo](https://hexo.io/zh-tw/)，於 2021年1月17號 用 [GitHub Pages](https://pages.github.com/) 發佈，希望用來記錄自己的歷程，與各位分享！
 
 2021/01/17 開始使用 Yun 主題作為網站主題;
 

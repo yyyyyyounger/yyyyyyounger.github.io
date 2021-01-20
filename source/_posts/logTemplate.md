@@ -1,10 +1,10 @@
 ---
 title: logTemplate
-date: 2021-01-20 13:17:06
+date: #yyyy-mm-dd hh:mm:ss
 tags: Log
 categories: 日誌
 ---
-# 更新
+# Update
 
 
 # Bug
@@ -15,6 +15,6 @@ categories: 日誌
 
 
 
-# 處理中..
+# Building...
 
 
