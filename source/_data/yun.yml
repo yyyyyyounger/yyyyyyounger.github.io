@@ -130,7 +130,7 @@ sidebar:
   # tagcloud: 在侧边栏显示 Hexo 原生标签页
   #   amount: 显示的标签数量
 
-#頭像
+#頭像&emoji表情
 avatar:
   enable: true
   url: https://i.loli.net/2021/01/18/2akFVDomwes9c4Z.jpg #/images/pig.jpg
@@ -141,3 +141,16 @@ avatar:
     enable: true  #是否顯示emoji
     emoji: 😥
     message: 又要早八了
+
+
+#評論功能
+github_issues:
+  enable: true
+  username: yyyyyyounger
+  repository: yyyyyyounger.github.io
+  filters: is:issue   #filter為 GitHub Issue 搜索規則
+#討論功能
+github_discussions:
+  enable: true
+  username: yyyyyyounger
+  repository: yyyyyyounger.github.io
