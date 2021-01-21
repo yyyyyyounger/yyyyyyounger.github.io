@@ -94,6 +94,10 @@ social:
 
 #比社交圖標更大的圖錶鏈接https://yun.yunyoujun.cn/guide/config.html#%E9%A1%B5%E9%9D%A2%E9%93%BE%E6%8E%A5
 pages:
+  - name: 我的小夥伴門
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
 
 
 #po文變化提醒
