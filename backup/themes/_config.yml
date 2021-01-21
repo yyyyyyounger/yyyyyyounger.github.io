@@ -1,5 +1,6 @@
 # Version of the configuration file
 # 測試上傳到GitHub backup
+# 測試非第一次換設備的繼續工作（應該在主題配置內找到
 version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
