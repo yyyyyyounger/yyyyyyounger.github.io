@@ -1,6 +1,9 @@
 #更新前把最新的主題配置文件.yml備份到本地再上傳到倉庫分支
-backupThemesConfig.sh
-echo "Backup success!"
+echo "ThemesConfig Backup Processing..."
+echo "Starting copy the config file of the themes to backup/themes"
+cp themes/amazing/_config.yml backup/themes
+echo "Backup Complete！"
+
 
 # 倉庫內hexo的備份更新
 # 如果没有消息后缀，默认提交信息为 `:pencil: update content`

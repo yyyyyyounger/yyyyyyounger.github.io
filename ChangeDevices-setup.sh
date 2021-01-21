@@ -28,5 +28,7 @@ git push --set-upstream origin hexo
 
 #主題安裝完是舊config文件，此時把剛clone的config放入amazing
 #為了繼續以上一次的配置繼續部署
-updateThemesConfig.sh
+echo "Themes Update Processing..."
+echo "Update to the lastest time status..."
+cp backup/themes/_config.yml themes/amazing
 
