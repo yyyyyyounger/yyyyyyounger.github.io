@@ -311,13 +311,13 @@ widgets:
         type: tags
     # Google FeedBurner email subscription widget configurations
     -
-        # # Where should the widget be placed, left sidebar or right sidebar
-        # position: right
-        # type: subscribe_email
-        # # Hint text under the email input
-        # description: 
-        # # Feedburner ID
-        # feedburner_id: ''
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: subscribe_email
+        # Hint text under the email input
+        description: 
+        # Feedburner ID
+        feedburner_id: ''
     # Google AdSense廣告 unit configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -386,13 +386,13 @@ plugins:
 # https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
 providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
-    # cdn: loli
-    # # Name or URL template of the webfont CDN provider
-    # fontcdn: loli
-    # # Name or URL of the fontawesome icon font CDN provider
-    # iconcdn: loli
-    # # https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v1.0.6/json_data/record.json, cdn前缀，对于hexo new page 页面中引用的资源文件不生效，需要手动改，如friend友链页中引用的资源
-    # # my_cdn_pre: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@v1.0.8/ #https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v2.2.1
+    cdn: loli
+    # Name or URL template of the webfont CDN provider
+    fontcdn: loli
+    # Name or URL of the fontawesome icon font CDN provider
+    iconcdn: loli
+    # https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v1.0.6/json_data/record.json, cdn前缀，对于hexo new page 页面中引用的资源文件不生效，需要手动改，如friend友链页中引用的资源
+    my_cdn_pre: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@v1.0.8/ #https://cdn.jsdelivr.net/gh/removeif/removeif.github.io@v2.2.1s
 
 
 footer_copyright_dsec: © 版權說明：[本站所有内容均收集於互聯網或自己創作,<br />&nbsp;&nbsp;&nbsp;&nbsp;方便於網友與自己學習交流，如有侵權，請<a href="/message" target="_blank">留言</a>，立即處理]<br /> #footer 版权说明 可自由配置
