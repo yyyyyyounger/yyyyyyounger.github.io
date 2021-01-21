@@ -1,14 +1,14 @@
 # Version of the configuration file
-# 測試上傳到GitHub backup
-# 測試非第一次換設備的繼續工作（應該在主題配置內找到
 version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
-variant: default
+variant: default #cyberpunk
 # Path or URL to the website's logo
-logo: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/logo.png #/img/logo.svg
+# /img/logo.svg Icarus默認圖標
+logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
+    # 網頁標籤頁顯示的 icon
     favicon: https://cdn.jsdelivr.net/gh/removeif/removeif-demo@latest/img/favicon.png #/img/favicon.svg
     # Open Graph metadata
     # https://hexo.io/docs/helpers.html#open-graph
