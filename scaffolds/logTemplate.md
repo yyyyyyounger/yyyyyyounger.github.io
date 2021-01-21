@@ -4,6 +4,9 @@ date: #yyyy-mm-dd hh:mm:ss
 tags: Log
 categories: 日誌
 ---
+> normal log
+<!-- more -->
+
 # Update
 
 
