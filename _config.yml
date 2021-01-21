@@ -66,19 +66,12 @@ future: true
 highlight:
   enable: true
   line_number: false
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
-  hljs: true #false
-# prismjs:
-#   enable: true #false
-#   preprocess: true
-#   line_number: false
-#   tab_replace: ''
-# 关闭 highlight
-# 启用 prism
+  hljs: false
 prismjs:
-  enable: true
+  enable: false
   preprocess: true
   line_number: false
   tab_replace: ""

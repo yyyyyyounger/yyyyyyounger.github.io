@@ -166,6 +166,7 @@ comment:
   tips:
     - 點擊按鈕跳轉 GitHub Issues 評論。
     - 若沒有本文 Issue，您可以使用 Comment 模板新建。
+    - 推薦使用 Issues 。
 
 
 #CDN Content Delivery Network cdn加速   jsDelivr:https://www.jsdelivr.com/
@@ -182,7 +183,7 @@ cdn:
 
 #代碼高亮功能highlight
 codeblock:
-  copy_btn: true
+  copy_btn: false
   prismjs:
     light: default
     dark: tomorrow
