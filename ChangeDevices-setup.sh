@@ -17,4 +17,4 @@ git push --set-upstream origin hexo
 
 
 #搜索引擎
-npm install hexo-generator-search
+#npm install hexo-generator-search
