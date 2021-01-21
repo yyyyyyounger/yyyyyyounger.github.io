@@ -1,3 +1,7 @@
+#更新前把最新的主題配置文件.yml備份到本地再上傳到倉庫分支
+backupThemesConfig.sh
+
+
 # 倉庫內hexo的備份更新
 # 如果没有消息后缀，默认提交信息为 `:pencil: update content`
 info="normal update" #default為$1  更改""裡面即可更改更新說明

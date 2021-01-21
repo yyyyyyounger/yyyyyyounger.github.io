@@ -9,7 +9,7 @@ description: 愛搞機的工科dog一枚   # default: ''
 keywords: 
 author: Y哥
 language: 
-- zh-tw
+- zh-TW
 - en
 - zh-CN
 timezone: ''  #時區設置，聽說有bug，保持默認吧
