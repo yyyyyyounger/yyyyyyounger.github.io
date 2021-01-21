@@ -64,17 +64,24 @@ post_asset_folder: false  # post_asset_folder：是否允许 Asset 文件夹，�
 relative_link: false
 future: true
 highlight:
-  enable: false #true
-  line_number: true
-  auto_detect: true #false
+  enable: true
+  line_number: false
+  auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: true #false
+# prismjs:
+#   enable: true #false
+#   preprocess: true
+#   line_number: false
+#   tab_replace: ''
+# 关闭 highlight
+# 启用 prism
 prismjs:
-  enable: true #false
+  enable: true
   preprocess: true
   line_number: false
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting <!--主页设置，路径、每页展示文章数量、文章排序-->  
 # path: Root path for your blogs index page. (default = '')

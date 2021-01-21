@@ -12,7 +12,7 @@ banner:
     enable: true
     icon: icon-arrow-down-s-line
 #網站圖標
-favicon: #/favicon.ico
+favicon: /favicon.ico
 #網站圖片背景
 bg_image: #背景
   enable: true
@@ -31,7 +31,6 @@ reward:
 #頁腳設置
 footer:
   since: 2021
-
   live_time:
     enable: true
     prefix: 本博客已萌萌噠運行了 
@@ -97,7 +96,7 @@ social:
 pages:
 
 
-#po文變化
+#po文變化提醒
 post_meta:
   item_text: true
 
@@ -137,11 +136,11 @@ avatar:
   url: https://i.loli.net/2021/01/18/2akFVDomwes9c4Z.jpg #/images/pig.jpg
   rounded: true #是否圓形
   opacity: 1    #透明度
-  mickey_mouse: false #米奇老鼠式頭像上移
+  mickey_mouse: false #是否米奇老鼠式頭像上移
   status:
     enable: true  #是否顯示emoji
     emoji: 😥
-    message: 又要早八了
+    message: 開始早八了
 
 
 #archive存檔/歸檔

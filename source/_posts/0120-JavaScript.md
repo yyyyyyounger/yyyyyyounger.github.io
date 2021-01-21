@@ -6,6 +6,7 @@ categories: 筆記
 ---
 學習JavaScript的歷程及我覺得的重點
 ***
+
 <!-- more -->
 # 初探JavaScript
 
