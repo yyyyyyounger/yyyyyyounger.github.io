@@ -1,9 +1,11 @@
 ---
-title: Hexo里的寫作 —— Markdown 語法
+title: 博客里的寫作
 date: 2021-01-18 21:41:32
 tags: Hexo
 categories: 筆記
 ---
+> Markdown語法
+<!-- more -->
 
 ## 前情提要
 

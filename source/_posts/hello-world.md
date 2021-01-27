@@ -4,6 +4,9 @@ date: 2021-01-17 23:45:42
 tags: Hexo
 categories: 筆記
 ---
+> 第一條Blog！
+<!-- more -->
+
 這是第一條Blog！在2021.01.17的晚上面世啦！
 老規矩—— HELLO WORLD ✿✿ヽ(°▽°)ノ✿ (記錄下hexo指令功能)
 
